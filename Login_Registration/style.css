@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+/* Registration.php */ 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    margin-top: 50px;
+}
+@media screen and (max-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:0
+    }
+    form{
+        margin: 0;
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+    }
+    form{
+        margin: 0;
+        margin-left: 100px;
+    }
+}
+form{
+    margin: auto;
+    width: 500px;
+}
+img{
+    height: 550px;
+    width: 550px;
+}
+input{
+    margin: 10px 0;
+    width: 250px;
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+input:active{
+    border-color: rgb(133, 132, 132);
+    border-width: 2px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    background-color: #1a73e8;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 0px;
+    margin-left: 70px;
+}
+input[type="submit"]:hover{
+    background-color: #0d5abf;
+}
+select{
+    margin: 10px 0;
+    width: 260px;
+    height: 36px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+#message{
+    padding: 10px;
+    background-color: rgb(230, 40, 40);
+    color: #fff;
+    width: 240px;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+p{
+    font-size: 10px;
+    margin: 0;
+    margin-left: 60px;
+}
+p a{
+    color: #0d5abf;
+    text-decoration: none;
+}
+
